@@ -1,0 +1,71 @@
+
+<template name="rightColumn">
+  <div class="right-column">
+    <div class="column-header">QUESTIONS &AMP; ANSWERS</div>
+    <div class="info">Use the back of this page if you need more space.</div>
+    <div class="question">
+      <div class="prompt">How would you describe this game?</div>
+      <div class="response">
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">What was your <strong>favorite</strong> part of the game?</div>
+      <div class="response">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">What would you <strong>change</strong> about it?</div>
+      <div class="response">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">What other game(s) is this one similar to?</div>
+      <div class="response">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div class="question">
+      <div class="prompt">Any other thoughts?</div>
+      <div class="response">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </div>
+    {{>emailSignup}}
+    {{>footer}}
+  </div>
+</template>
+
+<template name="emailSignup">
+  <div class="email-signup">
+    <div class="checkbox-row">
+    <div class="checkbox"></div>
+    <div class="cb-label">Please add me to the <strong>Playtest Northwest</strong> email list for future game events.</div>
+  </div>
+    <div class="checkbox-row">
+    <div class="checkbox"></div>
+    <div class="cb-label">Please add me to <strong>this game's</strong> email list for future updates and announcements.</div>
+  </div>
+  <div class="email-row">
+    <div class="prompt">My Email</div>
+    <div class="blank"></div>
+  </div>
+  <div class="clarifier">Please write as absolutely legibly as you can</div>
+  </div>
+</template>
+
+<template name="footer">
+  <div class="footer">
+  <img src="/pnw.png"/>
+  <div class="plug"> Visit our website at <span class="underlined">playtestNW.com</span> for future events and to register your own game design.</div>
+</div>
+</template>
